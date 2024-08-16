@@ -10,7 +10,7 @@ export default function App() {
 
   const dashboard = (
     <ContactsProvider>
-      <ConversationProvider>
+      <ConversationProvider id={id}>
         <Dashboard id={id} />
       </ConversationProvider>
     </ContactsProvider>
